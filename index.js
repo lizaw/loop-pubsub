@@ -27,10 +27,10 @@ function listenForMessages(subscriptionName, timeout) {
     console.log(`\tData: ${message.data}`);
     console.log(`\tAttributes: ${message.attributes}`);
     messageCount += 1;
-
+    
     request.post('http://loopback4-example-todo-list.jx-staging.35.185.129.162.nip.io/todos', {
       json: {
-        todo: message.data
+        "title": "testA"
       }
       }, (error, res, body) => {
       if (error) {
