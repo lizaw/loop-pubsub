@@ -10,7 +10,7 @@ function listenForMessages(subscriptionName, timeout) {
   // [START pubsub_subscriber_async_pull]
   // [START pubsub_quickstart_subscriber]
   // Imports the Google Cloud client library
-  console.log('[START pubsub_subscriber_async_pull]');
+  console.log('[START pubsub_subscriber_async_pull -new]');
   /**
    * TODO(developer): Uncomment the following lines to run the sample.
    */
